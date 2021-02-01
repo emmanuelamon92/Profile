@@ -6,8 +6,11 @@
     text-align: left;
     padding: 0px 0px 0px 10px;
     font: 1em sans-serif;
-
 }
+a:hover{
+    color: yellow;
+}
+
 #links{
     background: rgba(0,0,0,0.5);
     padding: 10px 10px 10px 0px;
