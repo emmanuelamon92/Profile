@@ -28,3 +28,44 @@ nav{
 a{
     color: white;
 }
+.fixed-top nav{
+    position: sticky;
+}
+/* my old website code */
+#start{
+    text-align: center;
+}
+#links li{
+    display: inline;
+    text-align: left;
+    padding: 0px 0px 0px 10px;
+    font: 1em sans-serif;
+}
+a:hover{
+    color: yellow;
+}
+
+#links{
+    background: rgba(0,0,0,0.5);
+    padding: 10px 10px 10px 0px;
+}
+body{
+    background-color: rgba(0,0,0,.1);
+    margin: 0px;
+}
+
+#first, #second{
+    /*float:left; display:inline; width: 49%;*/
+    background-color:  rgba(255,255,255, 1);
+}
+section{
+    padding: .1px 10px .1px 10px;
+    border-radius: 0px;
+    margin: 15px;
+}
+#interests{
+    padding: 0px
+}
+#interests li{
+    margin: 0px 0px 0px 20px;
+}
