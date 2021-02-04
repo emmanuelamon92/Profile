@@ -1,38 +1,30 @@
-#start{
-    text-align: center;
-}
-#links li{
-    display: inline;
-    text-align: left;
-    padding: 0px 0px 0px 10px;
-    font: 1em sans-serif;
-}
-a:hover{
-    color: yellow;
+.logo{
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* opacity: .75; */
 }
 
-#links{
-    background: rgba(0,0,0,0.5);
-    padding: 10px 10px 10px 0px;
-}
-body{
-    background-color: rgba(0,0,0,.1);
-    margin: 0px;
+.logo-container{
+    height: 100%;
 }
 
-#first, #second{
-    /*float:left; display:inline; width: 49%;*/
-    background-color:  rgba(255,255,255, 1);
+.logo-row {
+    height: 100%;
+    align-items: center;
 }
-section{
-    padding: .1px 10px .1px 10px;
-    border-radius: 0px;
-    margin: 15px;
-}
-#interests{
-    padding: 0px
-}
-#interests li{
-    margin: 0px 0px 0px 20px;
+.font, .lead{
+    color: rgb(255, 255, 255);
 }
 
+nav{
+    background-color: black;
+    color: white;
+    opacity: .5;
+}
+a{
+    color: white;
+}
