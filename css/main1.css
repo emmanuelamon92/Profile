@@ -19,3 +19,7 @@
 .font, .lead{
     color: rgb(255, 255, 255);
 }
+
+nav{
+    background-color: black;
+}
